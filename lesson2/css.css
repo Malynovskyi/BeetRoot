@@ -1,7 +1,5 @@
 
-*, *:after, *:before {
-    transition: .5s ease-in-out; 
-    }
+
 body {
     background:#F1F1F1;
     color:rgba(145, 145, 145, 0.7);
