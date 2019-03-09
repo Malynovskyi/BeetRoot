@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: all .1s ease-in;
+}
+body{
+    background-color: #3b3f45;
+    font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
+    min-height: 100%;
+}
+header{
+    font-size: 21px;
+    color:#eb7e7f;
+    text-align: center;
+    background-color:  #4a4f56;
+    padding: 50px 0 20px;
+    margin-bottom: 30px; 
+}
+.lisfordiv{
+    width: 50%;
+    background: #88849d;
+    margin: 0 auto;
+}
+div ul{
+    list-style: none;
+}
+div ul li:nth-child(even){
+    background:#7a7692;
+}
+div ul li {
+    height: 40px;
+    line-height: 40px;
+}
+ul li label{
+    cursor: pointer;
+    display: block;
+}
+div ul li input{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+div ul li:hover{
+    border-bottom: 3px solid white ;
+    border-top: 3px solid white;
+    background-color: #625e77;
+    cursor: pointer;
+}
+.maintext{
+    color: white;
+    font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
+    font-size: 20px;
+}
+.secondarytext{
+    font-size: 14px;
+    color: #C5BDC3;
+    line-height: 40px;
+}
+ul li input[type="checkbox"]:checked ~ span{
+text-decoration: line-through;
+color:#C5BDC3;
+}
+li [type="checkbox"]{
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+}
+div ul li:active{
+ background-color: #EB7E7F;
+}
+footer{
+    font-size: 21px;
+    color:#eb7e7f;
+    text-align: center;
+    background-color:  #4a4f56;
+   width: 50%;
+   height: 40px;
+   margin: 0 auto;
+   margin-top: 30px;
+   line-height: 40px;
+}

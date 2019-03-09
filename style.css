@@ -1,0 +1,42 @@
+.hdr {
+	font-family: Verdana;
+	font-size: 4em;
+	font-weight: bold;
+	color:rgb(148, 206, 185);
+	letter-spacing: -0.11em;
+	text-shadow: -0.05em 0px 0.07em #000000;
+	text-align: center;
+}
+ 
+.hdr div {
+	display: inline-block;
+	color: #34495e;
+	margin-left: -10px;
+}
+li{
+	list-style-image: url(beetroot.png);
+	font-size: 220%;
+}
+a {
+	color:#34495e; 
+	line-height: 1.2; 
+	position: relative; 
+	padding: 0 14px; 
+	text-transform: uppercase;
+	text-decoration: none;
+  }
+  a:after {
+	content: "";
+	height: 100%;
+	min-width: 0px;
+	background: #34495e;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	transition: .5s;
+  }
+  a:hover:after {
+	min-width: 100%;
+	background: #95a5a6;
+	opacity: .35;
+	}

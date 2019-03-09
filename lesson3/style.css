@@ -1,0 +1,17 @@
+body{
+    background-color: antiquewhite;
+}
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.block{
+   display: inline-block;
+}
+ul{
+    list-style: none;
+}
+.block1 li{
+    font-size: 30px;
+    font-family: monospace;}
