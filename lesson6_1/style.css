@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('ProximaNova-Regular.eot');
+    src: url('ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+    url('ProximaNova-Regular.woff') format('woff'),
+    url('ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+    @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+    @font-face {
+        font-family: 'Futura PT Heavy';
+        src: url('FuturaPT-Heavy.eot');
+        src: url('FuturaPT-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('FuturaPT-Heavy.woff') format('woff'),
+        url('FuturaPT-Heavy.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        }
+body{
+margin: 0%;
+padding: 0%;
+background-color:rgb(70, 79, 84)
+        }
+.blackblock{
+  background-color: #181818;;
+  position: relative;
+  margin-left: auto;
+  margin-right: 0;
+  top: 50px;
+  height: 180px;
+  width: 875px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 0 55px;
+  z-index: 20;
+}
+.title1{
+  position: absolute;
+  color: #767676;;
+  margin-left: 8%;
+  margin-top: 7%;
+  text-transform: uppercase;
+  font-family: 'Proxima Nova Regular';
+  letter-spacing: 3px;
+}
+.liketears{
+  font-family: 'Playfair Display', serif;
+  color: rgb(254, 254, 254);
+  position: absolute;
+  font-size: 48px;
+  margin-left: 8%;
+  margin-top: 8%;
+}
+.lineforblack {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  margin-left: 8%;
+  margin-top: 15%;
+  width: 92%;
+  height: 3px;
+  opacity: 0.1;
+  z-index: 23;
+}
+.yellowblock{
+  width: 812px;
+  height: 76px;
+  background-color: #F8BD2C;;
+  position: relative;
+  top: 50px;
+  margin-left: auto;
+  margin-right: 0;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 0 55px;
+  z-index: 6;
+ }
+ li{
+  display: inline-block;
+  margin-left: 40px;
+ }
+ ul{
+  display: inline-block;
+  list-style-type: none;
+  padding-left: 0%;
+  padding-top: 5px;
+
+ }
+.Document_Background{
+  position: relative;
+  background-color: white;
+  max-width:88.6%;
+  height: 800px;
+  z-index: 3;
+  margin-left: 5%;
+  top: -100px;
+  box-shadow:rgba(0, 0, 0, 0.8) 0 0 30px;
+  min-width: 875px;
+  min-height: 100%;
+ }
+ .Document_Background::before {
+  border-left:2px solid #D8E4E8;
+  content:"";
+  height:100%;
+  left:11.3%;
+  position:absolute;
+  width:0;
+  z-index:1;
+}
+ .Roy{
+  font-family: "Proxima Nova Regular";
+  color: rgb(180, 180, 180);
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 4.4px;
+  line-height: 1.2;
+ }
+ .Like-Tears-in-Rain{
+  font-family: "Futura PT Heavy";
+  color: rgb(42, 42, 42);
+  text-transform: uppercase;
+  font-size: 65px;
+  font-weight: 900;
+  margin-top: 25px;
+ }
+ .Where_am_I_going__How_long_have_I_got_{
+  font-size: 30px;
+  font-family: "Georgia";
+  color: rgb(143, 143, 143);
+  margin-top: 20px;
+  font-style: italic;
+    line-height: 2.081;
+ }
+ .first_text{
+  width: 90%;
+  height: 143px;
+  font-family: Georgia;
+  font-size: 27px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #000000;
+ }
+ .second_text{
+  width: 90%;
+  height: 107px;
+  font-family: Georgia;
+  font-size: 27px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #000000;
+  margin-top:40px;
+ }
+.alltext{
+  position: absolute;
+  margin-top: 17%;
+  margin-left:15%;
+}
