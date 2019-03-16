@@ -3,20 +3,20 @@
 }
 body{
   height: 100%;
+  width: 100%;
   padding-left: 0;
   padding-right: 0;
+ 
 }
 
 header{
-  background: url("ezra-comeau-jeffrey-77199-unsplash.png")  no-repeat;
+  background-image: url(ezra-comeau-jeffrey-77199-unsplash.png);
+
   width: 100%;
   height: 800px;
   padding-left: 20%;
   padding-right: 20%;
   color: white;
-  padding-top: 0.5%;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 .topline{
   display: flex;

@@ -1,43 +1,92 @@
 @font-face {
-  font-family: 'SegoeUI';
+  font-family: 'Segoe UI';
   src: url('9404.ttf');
-  font-weight: normal;
-  font-style: normal;
   }
 *{
-  border 
+  box-sizing: border-box;
 }
-header {
-    background-color: rgb(35, 35, 46);
-    position: relative;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 850px;
-    z-index: 8;
+
+  body{
+  color:#FFFFFF;
+ font-family:"Segoe UI";
   }
-  
-  .i_love_design {
+  header {
+    background:#23232E;
+    height:850px;
+    text-align:center;
+    width:100%;
+  }
+.bigtitle{
+    margin-top: 100px;
+  }
+.i_love_design {
       font-size: 80px;
-      font-family: "SegoeUI";
-      color: rgb(255, 255, 255);
       font-weight: bold;
       text-transform: uppercase;
-      line-height: 0.375;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 544px;
-      height: 58px;
-      z-index: 15;
+      color:white;
     }
-    .logo{
-    position: absolute;
-    top:5%;
-    left:50%;
-    transform: translate(-50%, -5%)
+.paragraf1{
+      font-size: 18px;
+      padding-top: 60px;
     }
+.logo{
+      padding-top: 40px;
+    }
+.icon{
+  padding-top: 120px;
+}
+
+.lowbox{
+  background: url(background.png);
+  height: 1042px;
+  text-align: center;
+  width: 100%;
+}
+.text{
+  text-align: center;
+  width: 60%;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+.text p{
+  font-size: 30px;
+  color:#464B4F;
+  line-height: 1.4;
+}
+.whatido{
+  color:#464B4F;
+  font-size: 80px;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-top: 150px;
+  line-height: 0.45;
+}
+.column{
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.columnall{
+  width: 30%;
+}
+.column p{
+color:#ADAEAE;
+font-size: 14px;
+font-family: "SegoeUI";
+color: rgb(136, 138, 139);
+line-height: 1.5;
+text-align: left;
+}
 
 
-    
+.column h6 {
+  color:#464B4F;
+  font-size:15px;
+  margin:0;
+  text-transform:uppercase;
+}
+
+
