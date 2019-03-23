@@ -157,9 +157,11 @@ text-align: justify;
 .firstlist{
   max-width: 40%;
   margin-right: 100px;
+  margin-left: 3%;
 }
 .secondlist{
   margin-left: 0 auto;
+  max-width: 40%;
 }
 
 .twolist li{
