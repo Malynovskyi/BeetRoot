@@ -1,0 +1,111 @@
+
+.box{
+  height: 200px;
+  width: 300px;
+  position: absolute;
+  color:white;
+  text-align: center;
+  line-height: 200px;
+  border-radius: 5%;
+}
+#green{
+  background: green;  
+  top: 20px;  
+}
+#blue{
+  background: blue;
+  margin-top: 200px;
+  margin-left: 40px;
+  z-index: 2;
+}
+#yellow{
+  background: orange;
+  margin-top: 380px;  
+}
+#red{
+  background: red;
+  margin-top: 600px;
+}
+.secondblock{
+  position: fixed;
+  height: 200px;
+  width: 400px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 5%;
+  background-color: green;
+  text-align: center;
+  line-height: 200px;
+}
+body{ 
+  margin-left: 0;
+  margin-top: 0;
+  height: 200vh;
+}
+.menu{
+  width: 100%;
+  position: fixed;
+  background: pink;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  z-index: 2;
+}
+.boxset{
+  background: #eaeaed;
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  box-shadow: 0 0  50px 2px black;
+  
+}
+.box1{
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  color:white;
+  line-height: 100px;
+  text-align: center;
+}
+#box1{
+  background: pink;
+  top:20px;
+  left: 20px;
+}
+#box2{
+  background: blue;
+  left:20px;
+  bottom: 20px;
+}
+#box3{
+  background: red;
+  right: 20px;
+  top: 20px;
+}
+#box4{
+  background: green;
+  right: 20px;
+  bottom: 20px;
+}
+#box5{
+    width: 70px;
+    height: 70px;
+    background: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    color: white;
+    line-height: 70px;
+    text-align: center;
+}

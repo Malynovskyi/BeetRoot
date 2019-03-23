@@ -5,6 +5,8 @@ body{
   width: 100%;
   padding-left: 0;
   padding-right: 0;
+  margin-left: 0;
+  margin-top: 0;
   font-family: 'Poppins', sans-serif;
 }
 h2{
@@ -24,10 +26,12 @@ header{
   margin-left: 0 ;
   margin-right: 0 ;
   font-weight: normal;
+  position: relative;
 }
 .topline{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 200px;
 }
 .nav li{
   list-style: none;
@@ -54,8 +58,7 @@ header{
 }
 
 .central-block{
-  margin-top: 15%;
-  text-align: center;
+text-align: center;
 }
 
 .areyouready {
@@ -65,21 +68,23 @@ header{
 }
 
 .domwbutton{
-  width: 25%;
-  height: 50px;
+  width: 30%;
   border-radius: 10px;
   border: solid 2px #dddddd;
-  padding-top:10px ;
   margin: 75px auto;
   font-family: Poppins;
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: normal;
+  line-height: 50px;
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
+}
+a{
+  text-decoration: none;
+  color: white;
 }
 .theclash{
   margin-top: 3%;
@@ -103,10 +108,11 @@ header{
 
 }
 .secondblock{
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 15%;
+  padding-right: 15%;
   font-family: 'Poppins', sans-serif;
   padding-bottom: 10px;
+  width: 100%;
 }
 .Vitamus{
   font-size: 32px;
@@ -129,16 +135,36 @@ header{
   color: #444444;
   margin-top: 100px;
 }
-.twolist {
-  width: 90%;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
+.twolist{
+  width: 100%;
+  margin-left: 10%;
+}
+.twolist  div{
+display: inline-block;
+text-align: justify;
 
 }
+.twolist div:after {
+  content: '';
+  width: 100%;
+  display: inline-block;
+}
+.firstlist, .secondlist{
+  display: inline-block;
+  padding: 10px;
+
+}
+.firstlist{
+  max-width: 40%;
+  margin-right: 100px;
+}
+.secondlist{
+  margin-left: 0 auto;
+}
+
 .twolist li{
   list-style: none;
-  font-size: 24px;
+  font-size: 18px;
   color: rgb(68, 68, 68);
   line-height: 1.2;
   text-align: left;
@@ -149,10 +175,7 @@ header{
   margin-top: 50px;
   vertical-align: top;
 }
-.secondlist{
-  margin-left: 130px;
-  position: relative;
-}
+
 ul .li1{
   list-style-image: url(1.png);
 }
@@ -206,16 +229,20 @@ ul .li6{
 }
 .articleof3block{
   width: 80%;
+  min-width: 50%;
   margin: 0 auto;
+  text-align: center;
 }
   .libesphoto {
     text-align: center;
     margin-top: 50px;
+    height: 70%;
   }
  .firstlinephoto div{
    display: inline-block;
    margin-left: 0 auto;
-   padding-left: 5%;  
+   padding-left: 5%; 
+ 
  }
  .secondlinephoto div{
   display: inline-block;
@@ -236,7 +263,7 @@ ul .li6{
   padding-bottom: 100px;
 }
 .Countdown{
-  width: 80%;
+  width: 70%;
   margin: 10px auto;
   display: flex;
   justify-content: space-between;
