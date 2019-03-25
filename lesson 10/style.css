@@ -1,0 +1,156 @@
+body{
+  background-color: silver;
+}
+.chesdesk{
+  background-color: white;
+  width: 560px;
+  height: 560px;
+  border: 1px solid black;
+  position: relative;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 10px 80px -3px #000;
+}
+
+.apple{
+  width: 60px;
+  height: 60px;
+}
+
+.android{
+  width: 60px;
+  height: 60px;
+}
+.black{
+  
+  text-align: center;
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  background-color: black;
+}
+#black1{
+  left:0;
+}
+#black2{
+  left: 140px;
+}
+#black3{
+  left: 280px;
+}
+#black4{
+  left: 420px;
+}
+#black5{
+  left:70px;
+  top: 70px;
+}
+#black6{
+  left:210px;
+  top:70px;
+}
+#black7{
+  left:350px;
+  top:70px;
+}
+#black8{
+  right: 0;
+  top:70px;
+}
+#black9{
+  left: 0;
+  top:140px;
+}
+#black10{
+  left: 140px;
+  top:140px;
+}
+#black11{
+  left: 280px;
+  top:140px;
+}
+#black12{
+  left: 420px;
+  top:140px;
+}
+#black13{
+  left:70px;
+  top: 210px;
+}
+#black14{
+  left:210px;
+  top:210px;
+}
+#black15{
+  left:350px;
+  top:210px;
+}
+#black16{
+  right: 0;
+  top:210px;
+}
+#black17{
+  left:0;
+  top: 280px;
+}
+#black18{
+  left: 140px;
+  top:280px;
+}
+#black19{
+  left: 280px;
+  top:280px;
+}
+#black20{
+  left: 420px;
+  top:280px;
+}
+#black21{
+  left:70px;
+  top: 350px;
+}
+#black22{
+  left:210px;
+  top:350px;
+}
+#black23{
+  left:350px;
+  top:350px;
+}
+#black24{
+  right: 0;
+  top:350px;
+}
+#black25{
+  left:0;
+  top:420px;
+}
+#black26{
+  left: 140px;
+  top:420px;
+}
+#black27{
+  left: 280px;
+  top:420px;
+}
+#black28{
+  left: 420px;
+  top:420px;
+}
+#black29{
+  left:70px;
+  top: 490px;
+}
+#black30{
+  left:210px;
+  top:490px;
+}
+#black31{
+  left:350px;
+  top:490px;
+}
+#black32{
+  right: 0;
+  top:490px;
+}
