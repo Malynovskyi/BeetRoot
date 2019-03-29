@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+width: 100%;
+background-image: url(Layer\ 5.png);
+background-repeat: no-repeat;
+background-size:cover;
+}
+.cart{
+border-radius: 10px;
+background-color: rgb(17, 26, 40);
+box-shadow: 0px 0px 65px 0px rgba(0, 0, 0, 0.82);
+position: relative;
+top: 100px;
+bottom: 0;
+right: 0;
+left: 0;
+margin: 0 auto;
+width: 686px;
+height: 391px;
+}
+.cart__logo{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+.image{
+    position: absolute;
+    top: 130px;
+    left:30px;
+}
+.eclipses{
+   margin-left: 150px;
+   margin-top: 60px;
+ 
+}
+.eclipse{
+    margin-right: 5px;
+    width: 10px;
+    height: 9px;;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+.eclipse:hover{
+    border: 1px solid white;
+}
+
+.eclipse__black__active{
+    background-color: black;
+    border: 1px solid white;
+}
+.eclipse__white{
+    background-color: white;
+}
+.eclipse__red{
+    background-color: red;
+}
+.eclipse__blue{
+    background-color: aqua;
+}
+
+.information{
+    position: absolute;
+    top: 60px;
+    right:0px;
+    max-width: 40%;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(225, 225, 225);
+    margin-bottom: 10px;
+}
+p{
+    font-size: 14px;
+    color: rgba(225, 225, 225, 0.541);
+    margin-bottom: 20px;
+}
+.star{
+    display: flex;
+    justify-content: space-between;
+    max-width: 25%;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    list-style: none;
+}
+.star__item {
+    color:white;
+}
+ .star__item:before {
+    content: '\2605';
+}
+.star__item__active{
+    color: orange;
+}
+.star:hover .star__item{
+    color: orange;
+}
+.star .star__item:hover~.star__item{
+    color: white;
+}
+select{
+    border-width: 1px;
+    border-style: solid;
+    font-size: 14px;
+    background-color: rgb(17, 26, 40);
+    width: 80px;
+    color: white;
+    width: 67px;
+    height: 30px;
+    opacity: 0.259;
+}
+input{
+    margin-top: 30px;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(76, 82, 90);
+    opacity: 0.259;
+    width: 182px;
+    height: 38px;
+    color: white;
+    cursor: pointer;
+}
+
+  
