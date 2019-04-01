@@ -1,0 +1,157 @@
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+body{
+    background-image: url(unsplash.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+form{
+    margin: 0 auto;
+    width: 336px;
+    height: 532px;
+    background-color: white;
+    position: relative;
+    font-size: 13px;
+    font-family: "Montserrat";
+    color: rgb(158, 171, 173);
+
+}
+
+.head{
+    background-color: rgb(248, 237, 175);
+    width: 100%;
+    height: 72px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+h1{
+    font-size: 36px;
+    right: 10px;
+    color: rgb(99, 117, 112);
+}
+h4{
+    font-size: 10px;
+    font-family: "Montserrat";
+    color: rgb(166, 162, 141);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+}
+h3{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(110, 127, 123);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.content{
+    width: 100%;
+    height: 460px;
+    position: absolute;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 40px;
+}
+input,label{
+    display: block;
+}
+input{
+    margin-bottom: 30px;
+    font-size: 13px;
+    font-family: "Montserrat";
+    color: rgb(114, 127, 130);
+    line-height: 1.2;
+    padding: 3%;
+}
+#card{
+    background-color: rgb(255, 255, 255);
+    width: 288px;
+    height: 44px; 
+}
+input:focus, select:focus{
+    padding-right: 5px;
+    outline: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(130, 212, 231);
+}
+#month{
+    width: 176px;
+    height: 44px;
+
+
+}
+#year{
+    width: 96px;
+    height: 44px;
+    margin-left: 8px;
+}
+.form_select{
+    margin-bottom: 30px;
+    padding-left: 5px;
+    border-radius: 0px; 
+    color: rgb(114, 127, 130);
+   /* -webkit-appearance: none;
+    background: url(select.png) no-repeat right ;*/
+
+}
+.cvv{
+    position: relative;;
+}
+span{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+}
+a:visited{
+    color: rgb(110, 127, 123)
+}
+#cvv{
+    width: 96px;
+    height: 44px;
+}
+hr {
+    color: rgb(237, 240, 241);
+    margin-bottom: 30px;
+    width:288px;
+    height: 1px;
+    opacity: 0.7;
+}
+.button{
+    background-color: rgb(37, 184, 106);
+    width: 288px;
+    height: 48px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    cursor: pointer;
+}
+.cansel{
+    text-align: center;
+    cursor: pointer;
+    text-decoration: underline;
+}
+label{
+    margin-bottom: 5px;
+}
+
+  

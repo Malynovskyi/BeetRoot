@@ -45,12 +45,12 @@ height: 391px;
     cursor: pointer;
 }
 .eclipse:hover{
-    border: 1px solid white;
+    border: 2px solid silver;
 }
 
 .eclipse__black__active{
     background-color: black;
-    border: 1px solid white;
+    border: 2px solid silver;
 }
 .eclipse__white{
     background-color: white;
@@ -69,10 +69,12 @@ height: 391px;
     max-width: 40%;
 }
 h1{
-    font-family: 'Times New Roman', Times, serif;
     color: rgb(225, 225, 225);
     margin-bottom: 10px;
+    font-weight: 100;
+    opacity: 0.8;
 }
+
 p{
     font-size: 14px;
     color: rgba(225, 225, 225, 0.541);
@@ -124,6 +126,9 @@ input{
     height: 38px;
     color: white;
     cursor: pointer;
+}
+input:hover, select:hover{
+    opacity: 1;
 }
 
   
